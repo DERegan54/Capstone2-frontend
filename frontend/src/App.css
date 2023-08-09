@@ -58,7 +58,7 @@ body {
     text-align: left;
     font-size: large;
     color: olivedrab;
-    margin-left: 5%;
+   
 }
 
 .Header-h1 {
@@ -115,8 +115,11 @@ img {
     width: 75%;
 }
 
-.LunchList {
-    color: sienna;
+.LunchList{
+    color: sienna; 
+}
+
+.LunchList-header{
     margin-left: 5%;
 }
 
@@ -282,7 +285,7 @@ img {
 
 .SearchForm {
     color: sienna;
-    text-align: center;
+   margin-left: 5%;
 }
 
 .UserFavoriteCardList {
