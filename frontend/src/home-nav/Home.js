@@ -21,14 +21,15 @@ const Home = () => {
     const homeIfLoggedOut = () => {
         return (
             <div className='Home-loggedOut'>
+                <div className='Home-register'>
+                    <h2>New around here?  <button><Link to="/register">Sign Up Here!</Link></button></h2>
+                </div>
                 <br></br>
                 <br></br>
-                <h2>New around here?</h2>
-                <button><Link to="/register">Sign Up Here!</Link></button>
-                <br></br>
-                <br></br>
-                <h2>Let's pack some lunches!</h2>
-                <button><Link to="/login">Log In Here!</Link></button>
+                <div className='Home-login'>
+                    <h2>Let's pack some lunches!   <button><Link to="/login">Log In Here!</Link></button></h2>
+                    
+                </div>
             </div>
         );
     }

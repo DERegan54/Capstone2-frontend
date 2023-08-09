@@ -80,6 +80,11 @@ body {
     text-align: center;
 }
 
+.Home-register, 
+h2 {
+    margin-bottom: 1px;
+}
+
 img {
     box-sizing: border-box;
     height: 150px;
@@ -88,12 +93,12 @@ img {
 .LoginForm-container {
     color: sienna;
     background-color: darkseagreen;
+    text-align: center;
     border: 1px solid black;
     border-radius: 5px;
-    padding-left: 5%;
-    padding-bottom: 5%;
+    padding: 3%;
     margin: auto;
-    width: 70%; 
+    width: 30%; 
 }
 
 .LunchCard {
@@ -267,12 +272,12 @@ img {
 .RegistrationForm-container {
     color: sienna;
     background-color: darkseagreen;
+    text-align: center;
     border: 1px solid black;
     border-radius: 5px;
-    padding-left: 5%;
-    padding-bottom: 5%;
+    padding: 3%;
     margin: auto;
-    width: 70%;
+    width: 30%;
 }
 
 .SearchForm {

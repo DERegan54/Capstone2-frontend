@@ -6,7 +6,7 @@ import useLocalStorage from './UseLocalStorage';
 import MklApi from './api';
 import UserContext from './users/UserContext';
 import jwt_decode from 'jwt-decode';
-import "./App2.css"
+import "./App.css"
 
 export const TOKEN_STORAGE_ID = "mkl-token";
 
