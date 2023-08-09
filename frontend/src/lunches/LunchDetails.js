@@ -49,8 +49,17 @@ const LunchDetails = () => {
                 <p><b>Fat: </b> {lunch.fat}</p>
                 <p><b>Sweet: </b> {lunch.sweet}</p>
                 <p><b>Beverage: </b> {lunch.beverage}</p>
-            </div>
-            {/* <br></br>
+            </div> 
+        </div>
+    );
+}
+
+export default LunchDetails;
+
+
+
+
+{/* <br></br>
             <br></br>
             <h2 className='LunchDetails-foodList'>
                 {lunchFoods && Object.keys(lunchFoods).length<1 ? null : "Nutrition Information For Lunch Items:"}
@@ -58,8 +67,3 @@ const LunchDetails = () => {
             <div className='LunchDetails-foods'>
                 <LunchFoodCardList foods={foods} />
             </div> */}
-        </div>
-    );
-}
-
-export default LunchDetails;

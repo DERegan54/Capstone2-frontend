@@ -26,25 +26,26 @@ const ReviewList = ({lunches, reviews}) => {
     console.log("userReviews: ", userReviews);
     
     return (
-        <div className="ReviewList-container">
+        <div className="ReviewList">
             <Header />
             <br></br>
             <br></br>
             <h1 className="ReviewList-header">{currentUser.firstName || currentUser.username}'s Lunch Reviews:</h1>
-            {userReviews.length
-                ? (
-                    <div className='ReviewsList-reviews'>
-                        {userReviews.map((userReview) => ( 
-                            <ReviewCard userReview={userReview} 
-                                        lunches={lunches} 
-                                        key={userReview.id}
-                            />
-                        ))} 
-                    </div>
-                ) : (
-                    <p className='ReviewList-emptyMessage'>No reviews yet.</p>
-            )}
-            
+            <div className="ReviewList-container"> 
+                {userReviews.length
+                    ? (
+                        <div className='ReviewsList-reviews'>
+                            {userReviews.map((userReview) => ( 
+                                <ReviewCard userReview={userReview} 
+                                            lunches={lunches} 
+                                            key={userReview.id}
+                                />
+                            ))} 
+                        </div>
+                    ) : (
+                        <p className='ReviewList-emptyMessage'>No reviews yet.</p>
+                )}
+            </div>   
         </div>
     ); 
 }

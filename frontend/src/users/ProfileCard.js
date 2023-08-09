@@ -13,17 +13,19 @@ const ProfileCard = () => {
         <div className='Profile'>
             <Header />
             <div className='Profile-container'>
-                <h2>{currentUser.firstName || currentUser.username}'s Profile:</h2>
-                <p><b>Username: </b> {currentUser.username}</p>
-                <p><b>First Name: </b>{currentUser.firstName}</p>
-                <p><b>Last Name: </b>{currentUser.lastName}</p>
-                <p><b>Email: </b>{currentUser.email}</p>
-                <p><b>Special Diet: </b>{currentUser.diet}</p>
-                <p><b>Allergies/Sensitivities: </b>{currentUser.allergies}</p>
-                <p><b>Food Preferences: </b>{currentUser.preferences}</p>
-                <p><b>Food Aversions: </b>{currentUser.aversions}</p>
-                <br></br>
-                <br></br>
+                <div className='Profile-info'>
+                    <h2>{currentUser.firstName || currentUser.username}'s Profile:</h2>
+                    <p><b>Username: </b> {currentUser.username}</p>
+                    <p><b>First Name: </b>{currentUser.firstName}</p>
+                    <p><b>Last Name: </b>{currentUser.lastName}</p>
+                    <p><b>Email: </b>{currentUser.email}</p>
+                    <p><b>Special Diet: </b>{currentUser.diet}</p>
+                    <p><b>Allergies/Sensitivities: </b>{currentUser.allergies}</p>
+                    <p><b>Food Preferences: </b>{currentUser.preferences}</p>
+                    <p><b>Food Aversions: </b>{currentUser.aversions}</p>
+                    <br></br>
+                    <br></br>
+                </div>
                 <ProfileForm />
             </div>
         </div>
