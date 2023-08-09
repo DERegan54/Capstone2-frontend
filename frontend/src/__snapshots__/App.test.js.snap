@@ -78,30 +78,36 @@ exports[`matches snapshot 1`] = `
             <div
               class="Home-loggedOut"
             >
+              <div
+                class="Home-register"
+              >
+                <h2>
+                  New around here?  
+                  <button>
+                    <a
+                      href="/register"
+                    >
+                      Sign Up Here!
+                    </a>
+                  </button>
+                </h2>
+              </div>
               <br />
               <br />
-              <h2>
-                New around here?
-              </h2>
-              <button>
-                <a
-                  href="/register"
-                >
-                  Sign Up Here!
-                </a>
-              </button>
-              <br />
-              <br />
-              <h2>
-                Let's pack some lunches!
-              </h2>
-              <button>
-                <a
-                  href="/login"
-                >
-                  Log In Here!
-                </a>
-              </button>
+              <div
+                class="Home-login"
+              >
+                <h2>
+                  Let's pack some lunches!   
+                  <button>
+                    <a
+                      href="/login"
+                    >
+                      Log In Here!
+                    </a>
+                  </button>
+                </h2>
+              </div>
             </div>
           </div>
         </div>
