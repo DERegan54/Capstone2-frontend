@@ -1,6 +1,6 @@
 import axios from "axios";
 
-const BASE_URL = process.env.REACT_APP_BASE_URL || "https://mkl-backend.onrender.com";
+const BASE_URL = process.env.REACT_APP_BASE_URL || "http://localhost:3001";
 
 /** API Class
  * Static class tying together methods used to get/send to the API
@@ -46,7 +46,7 @@ class MklApi {
         return res.lunch;
     }
 
-    // Creates a lunch instance
+    // Creates a lunch inskhakice
     static async createLunch(data) {
         let res = await this.request(`lunches/`, data, "post");
         return res.lunch;
@@ -100,7 +100,7 @@ class MklApi {
         return res.user;
     }
 
-    // Creates a review instance
+    // Creates a review inskhakice
     static async createReview(data) {
         let res = await this.request(`reviews/`, data, "post");
         return res.review;

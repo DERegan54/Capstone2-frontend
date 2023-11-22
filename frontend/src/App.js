@@ -27,7 +27,7 @@ function App() {
         try {
           let {username} = jwt_decode(token);
           MklApi.token = token;
-          // console.log(token)
+          console.log(token)
           const currentUserRes = await MklApi.getUser(username);
           setCurrentUser(currentUserRes);
           setUserFavoriteIds(new Set(currentUserRes.favorites));

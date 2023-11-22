@@ -1,47 +1,68 @@
-.AddLunchForm {
-    box-sizing: border-box;
-    color: sienna;
-    margin-top: 5%;
+/* .AddFoodForm {
+    color: white;
+    margin-top: 1em;
 }
 
-.AddLunchForm-container {
-    box-sizing: border-box;
-    color: sienna;
+.AddFoodForm-container {
+    color: white;
     background-color: darkseagreen;
     border: 1px solid black;
     border-radius: 5px;
-    padding: 8%;
+    padding-top: 2em;
+    padding-left: 2em;
+    padding-bottom: 2em;
     margin: auto;
-    width: 80%;
+    width: 20em;
+}
+
+.AddFoodForm-container,
+button {
+    margin-top: 1em;
+}
+
+.AddFoodForm-h2 {
+    margin-left: 4em;
+}
+
+.AddLunchForm {
+    color: white;
+    margin-top: 2em;
+}
+
+.AddLunchForm-container {
+    color: white;
+    background-color: darkseagreen;
+    border: 1px solid black;
+    border-radius: 5px;
+    padding-top: 2em;
+    padding-left: 2em;
+    padding-bottom: 2em;
+    margin: auto;
+    width: 30em;
 }
 
 .AddLunchForm
 textarea {
-    box-sizing: border-box;
-    width: 80%;
-    height: 40%;
+    width: 30em;
+    height: 5em;
 }
 
 .AddLunchForm-container,
 button {
-    box-sizing: border-box;
-    margin-top: 5%;
+    margin-top: 1em;
 }
 
 .AddLunchForm-h1 {
-    box-sizing: border-box;
-    margin-left: 5%;
-}
+    margin-left: 2em;
+}*/
 
 body {
-    box-sizing: border-box;
-    font-size: 100%;
     font-family: Trebuchet MS;
+    background-color: rgba(34, 128, 144, 0.718);
 }
-
+/*
 .FavoriteCard{
-    box-sizing: border-box;
-    color: sienna;
+    color: white;
     background-color: darkseagreen;
     border: 1px solid black;
     border-radius: 5px;
@@ -49,191 +70,259 @@ body {
     margin-right: 2em;
     padding-bottom: 1em;
     margin-bottom: 2em;
-    width: 80%;
+    width: 40em;
 }
-    
+ 
+.Form-Btn-Container {
+    font-size: larger;
+}
+
+  
+.Form-container {
+    width: 300px;
+    color: red;
+    background-color:khaki;
+    border: 2px solid black;
+    border-radius: 5px;
+    padding-left: 4em;
+    padding-bottom: 1em;
+    margin: auto;
+    margin-top: 100px;
+}
+
 .Header {
-    display: inline;
+    position: relative;
     background-color: white;
     text-align: left;
     font-size: large;
-    color: olivedrab;
-   
+    padding-top: 30px;
+    border-top: 2px solid black;
+    border-bottom: 2px solid black;
 }
 
 .Header-h1 {
-    background-color: white;
-    font-size: xx-large;
-}
+        color: red;
+        background-color: white;
+        height: 200px;
+        font-size: 50px;
+        margin-left: 1em;
+    }
+
 
 .Header-h4 {
+    color: red;
     background-color: white;
-    margin-left: 15%;
+    margin-top: -90px;
+    margin-left: 5em;
     font-size: x-large;
 }
 
+.Header-lunchbox {
+    display: inline;
+    height: 200px;
+    margin-top: -100px;
+    margin-left: 500px;
+}
+
 .Home-container {
-    color: sienna;
+    color: white;   
+}
+
+.Home-loggedOut,
+h2 {
+    color: white;
+    margin-left: 30px;
+}
+
+.Home-loggedIn,
+h1 {
+    color: white;
+    margin-top: 100px;
+}
+
+.Home-loggedIn,
+h2 {
+    color: white;
+    margin-top: 80px;
+    margin-left: -5px;
 }
 
 .Home-loggedIn, .Home-loggedOut {
     text-align: center;
-}
-
-.Home-register, 
-h2 {
-    margin-bottom: 1px;
+    color: white;
+    font-size: larger;
 }
 
 img {
-    box-sizing: border-box;
-    height: 150px;
+    height: 100px;
 }
 
-.LoginForm-container {
-    color: sienna;
-    background-color: darkseagreen;
-    text-align: center;
-    border: 1px solid black;
-    border-radius: 5px;
-    padding: 3%;
-    margin: auto;
-    width: 40%; 
-}
+
 
 .LunchCard {
-    box-sizing: border-box;
-    color: sienna;
+    color: white;
     background-color: darkseagreen;
     border: 1px solid black;
     border-radius: 5px;
-    margin-left: 5%;
-    margin-bottom: 5%;
-    padding-left: 5%;
-    padding-right: 5%;
-    padding-bottom: 5%;
-    width: 75%;
+    margin-left: 8em;
+    margin-bottom: 2em;
+    padding-left: 2em;
+    padding-right: 2em;
+    padding-bottom: 1.2em;
+    width: 50em;
 }
 
-.LunchList{
-    color: sienna; 
-}
-
-.LunchList-header{
-    margin-left: 5%;
+.LunchList-header {
+    color: white;
+    margin-left: 2em;
 }
 
 .LunchList-emptySearchResults {
-    box-sizing: border-box;
-    color: sienna;
+    color: white;
     text-align: center;
-    margin-top: 5%;
+    margin-top: 50px;
 }
 
 .LunchDetails-header {
-    box-sizing: border-box;
-    color: sienna;
-    margin-top: 5%;
-    margin-left: 10%;
+    color: white;
+    margin-top: 2em;
+    margin-left: 2em;
 }
 
 .LunchDetails-container {
-    box-sizing: border-box;
-    color: sienna;
-    margin-left: 20%;
+    color: white;
+    margin-left: 6em;
+}
+
+.LunchDetails-foodList {
+    color: white;
+    margin-left: 3em;
+}
+
+.LunchDetails-foods {
+    column-count: 3;
+    margin-left: 4em;
+    margin-right: -11em;
 }
 
 .LunchReviewCard {
-    box-sizing: border-box;
-    color: sienna;
+    color: white;
     text-align: center;
-    background-color: tan;
+    background-color: khaki;
     border: 1px solid black;
     border-radius: 5px;
-    padding-top: 5%;
-    padding-right: 5%;
-    padding-left: 5%;
-    padding-bottom: 5%;
-    margin-left: 10%;
-    margin-bottom: 5%;
-    width: 75%;
+    padding-top: 1em;
+    padding-right: 2em;
+    padding-left: 2em;
+    padding-bottom: 1em;
+    margin-left: 3em;
+    margin-bottom: 1em;
+    width: 40em;
 }
 
-.Navbar,
-    span {
-        box-sizing: border-box;
-        text-align: center;
-        margin-bottom: 3%;
-        margin-left: 3%;
+.Navbar {
+    padding-top: 5px;
+    padding-bottom: 25px;
+    margin-left: 50px;
+    text-align: center;
+    text-decoration: none;
+} 
+
+.navBtn {
+    height: 50px;
+    width: 150px;
+    border-radius: 5px;
+    background-color: white;
+    font-size: large;
+    color: red;
+    margin-left: 30px;
+    
+
+    &:hover {
+        background: red;
+        color: white;
     }
+}
+
+.navBtn home {
+    margin-left: 30px;
+}
+
+.navBtnLink {
+    color: red;
+    font-size: larger;
+    border-style: none;
+    text-decoration: none;
+
+    &:hover {
+        color: white;
+        background: red;
+    }
+}
+
+.navBtnContainer {
+    color: white;
+
+    &:hover {
+        color: white;
+    }
+}
+
 
 .Profile-container {
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    grid-template-rows: 100px, 200px;
-}
-
-.Profile-info {
-    color: sienna;
-    margin-left: 20%;
-    margin-right: 10%;
-    margin-top: 5%;
-    grid-column: 1;
-    grid-row: 1;
+    color: white;
+    margin-left: 10em;
+    margin-right: 4em;
+    margin-top: 1em;
+    column-count: 2;
+    column-gap: 50px;
 }
 
 .ProfileForm {
-    color: sienna;
+    color: white;
     background-color: darkseagreen;
     border: 1px solid black;
     border-radius: 5px;
-    margin-top: 5%;
-    padding-left: 5%;
-    padding-bottom: 2%;
-    grid-column: 2;
-    grid-row: 1;
-    width: 50%;
-}
-
-.ReviewList {
-    color: sienna;
+    margin-top: -1em;
+    padding-left: 2em;
+    padding-bottom: 1em;
+    width: 20em;
 }
 
 .ReviewList-container {
-    margin-right: 20%;
+    color: white;
 }
 
 .ReviewList-header {
-    box-sizing: border-box;
-    color: sienna;
-    margin-left: 5%;
+    color: white;
+    margin-left: 2em;
 }
 
 .ReviewList-emptyMessage {
-    box-sizing: border-box;
-    color: sienna;
+    color: white;
     text-align: center;
-    margin-top: 20%;
+    margin-top: 100px;
 }
 
 .ReviewCard-container {
-    box-sizing: border-box;
-    color: sienna;
+    color: white;
     text-align: center;
     background-color: darkseagreen;
     border: 1px solid black;
     border-radius: 5px;
-    padding: 5%;
-    margin-bottom: 10%;
-    margin-left: 20%;
-    width: 80%;
+    padding-top: 1em;
+    padding-right: 2em;
+    padding-bottom: 2em;
+    padding-left: 2em;
+    margin-left: 8em;
+    margin-bottom: 1em;
+    width: 40em;
 }
 
 .ReviewCard-updateForm {
-    box-sizing: border-box;
-    color: sienna;
+    color: white;
     text-align: center;
-    background-color: tan;
+    background-color: khaki;
     border: 1px solid black;
     border-radius: 5px;
     padding-right: 3em;
@@ -242,75 +331,77 @@ img {
     margin-left: 2em;
     margin-right: 2em;
     margin: auto;
-    width: 70%;
-}
-
-.ReviewForm-container {
-    box-sizing: border-box;
-    color: sienna;
-    text-align: center;
-    background-color: darkseagreen;
-    border: 1px solid black;
-    border-radius: 5px;
-    padding: 5%;
-    margin: auto;
-    width: 80%;
-}
-
-.ReviewForm-reviewTextArea {
-    width: 80%;
-    height: 60%;
+    width: 15em;
 }
 
 .ReviewUpdateForm-textarea {
-    width: 80%;
+    width: 200px;
     height: 75px;
     margin-left: 10px;
 }
 
 .ReviewUpdateForm-submitButton {
     text-align: center;
+    margin-left: 1em;
 }
 
 .RegistrationForm-container {
-    color: sienna;
+    color: white;
     background-color: darkseagreen;
-    text-align: center;
     border: 1px solid black;
     border-radius: 5px;
-    padding: 3%;
+    padding-left: 2em;
+    padding-bottom: 1em;
     margin: auto;
-    width: 40%;
+    width: 20em;
+}
+
+.ReviewForm-container {
+    color: white;
+    text-align: center;
+    background-color: darkseagreen;
+    border: 1px solid black;
+    border-radius: 5px;
+    padding-top: 2em;
+    padding-right: 2em;
+    padding-left: 2em;
+    padding-bottom: 2em;
+    margin-left: 1em;
+    margin-right: 1em;
+    margin: auto;
+    width: 30em;
+}
+
+.ReviewForm-reviewTextArea {
+    width: 30em;
+    height: 20em;
 }
 
 .SearchForm {
-    color: sienna;
-   margin-left: 5%;
+    color: white;
+    text-align: center;
 }
 
 .UserFavoriteCardList {
-    margin-left: 20%
+    margin-left: 8em;
 }
 .UserFavoritesList-header {
-    box-sizing: border-box;
-    color: sienna;
-    margin-left: 10%;
+    color: white;
+    margin-left: 2em;
 }
 
 .UserFavoritesList-lunches {
-    box-sizing: border-box;
-    margin-left: 5%;  
+    margin-left: 6em;   
 }
 
 .UserFavoritesList-emptyMessage{
-    box-sizing: border-box;
-    color: sienna;
+    color: white;
     text-align: center;
-    margin-top: 20%;
-}
+    margin-top: 100px; 
+}*/
 
 /* .LunchFoodCard {
-    color: sienna;
+    color: white;
     display: inline-block;
     background-color: darkseagreen;
     border: 1px solid black;
@@ -328,12 +419,12 @@ img {
 }
 .LunchFoodCard,
 p {
-    color: sienna;
+    color: white;
 } */
 
 
 /* .FoodList-container {
-    color: sienna;
+    color: white;
     margin-left: 4em;
 }
 
@@ -353,7 +444,7 @@ p {
     margin-left: 6em;
 }
 .FoodCard {
-    color: sienna;
+    color: white;
     display: inline-block;
     background-color: darkseagreen;
     border: 1px solid black;
@@ -365,48 +456,4 @@ p {
     padding-bottom: 2em;
     padding-left: 2em;
     width: 15em;
-} 
-
-.LunchDetails-foodList {
-    box-sizing: border-box;
-    color: sienna;
-    margin-left: 3em;
-}
-
-.LunchDetails-foods {
-    box-sizing: border-box;
-    column-count: 3;
-    margin-left: 4em;
-    margin-right: -11em;
-}
-
-.AddFoodForm {
-    box-sizing: border-box;
-    color: sienna;
-    margin-top: 5%;
-}
-
-.AddFoodForm-container {
-    box-sizing: border-box;
-    color: sienna;
-    background-color: darkseagreen;
-    border: 1px solid black;
-    border-radius: 5px;
-    padding-top: 2em;
-    padding-left: 2em;
-    padding-bottom: 2em;
-    margin: auto;
-    width: 20em;
-}
-
-.AddFoodForm-container,
-button {
-    box-sizing: border-box;
-    margin-top: 1em;
-}
-
-.AddFoodForm-h2 {
-    box-sizing: border-box;
-    margin-left: 4em;
 } */
-
