@@ -28,8 +28,13 @@ span {
 .Form-Btn-Container {
     font-size: larger;
 }
+
+.LoginForm-input {
+    width: 20rem;
+    margin-bottom: 5px;
+}
  
-/* .Form-container {
+.Form-container {
     color: red;
     background-color:khaki;
     border: 2px solid black;
@@ -37,8 +42,7 @@ span {
     padding-left: 2em;
     padding-bottom: 1em;
     margin: auto;
-    margin-top: 100px;
-} */
+}
 
 .Profile-container {
     color: white;
@@ -74,6 +78,11 @@ span {
     padding-bottom: 1em;
     margin: auto;
     width: 20em;
+}
+
+.RegistrationForm-input {
+    width: 20rem;
+    margin-bottom: 5px;
 }
 
 .UserFavoriteCardList {

@@ -47,7 +47,7 @@ const RegistrationForm = ({signup, lunches}) => {
                 <form onSubmit={handleSubmit}>
                     <label htmlFor="username">Username: </label>
                     <input 
-                        className="RegistrationForm-usernameInput"
+                        className="RegistrationForm-input"
                         type="text"
                         name="username"
                         id="username" 
@@ -57,7 +57,7 @@ const RegistrationForm = ({signup, lunches}) => {
                     <br></br>
                     <label htmlFor="password">Password: </label>
                     <input 
-                        className="RegistrationForm-passwordInput"
+                        className="RegistrationForm-input"
                         type="text"
                         name="password"
                         id="password"
@@ -67,7 +67,7 @@ const RegistrationForm = ({signup, lunches}) => {
                     <br></br>
                     <label htmlFor="firstName">First Name: </label>
                     <input 
-                        className="RegistrationForm-firstNameInput"
+                        className="RegistrationForm-input"
                         type="text"
                         name="firstName"
                         id="firstName" 
@@ -77,7 +77,7 @@ const RegistrationForm = ({signup, lunches}) => {
                     <br></br>
                     <label htmlFor="lastName">Last Name: </label>
                     <input 
-                        className="RegistrationForm-lastNameInput"
+                        className="RegistrationForm-input"
                         type="text"
                         name="lastName"
                         id="lastName"
@@ -87,7 +87,7 @@ const RegistrationForm = ({signup, lunches}) => {
                     <br></br>
                     <label htmlFor="email">E-mail: </label>
                     <input 
-                        className="RegistratonForm-emailInput"
+                        className="RegistrationForm-input"
                         type="text"
                         name="email"
                         id="email"
@@ -97,7 +97,7 @@ const RegistrationForm = ({signup, lunches}) => {
                     <br></br>
                     <label htmlFor="diet">Diet Type: </label>
                     <input 
-                        className='ProfileForm-dietInput'
+                        className='RegistrationForm-input'
                         type="text"
                         name="diet"
                         id="diet"
@@ -107,7 +107,7 @@ const RegistrationForm = ({signup, lunches}) => {
                     <br></br>
                     <label htmlFor="allergies">Food Allergies: </label>
                     <input 
-                        className='ProfileForm-allergiesInput'
+                        className='RegistrationForm-input'
                         type="text"
                         name="allergies"
                         id="allergies"
@@ -117,7 +117,7 @@ const RegistrationForm = ({signup, lunches}) => {
                     <br></br>
                     <label htmlFor="preferences">Food Preferences: </label>
                     <input 
-                        className='ProfileForm-preferencesInput'
+                        className='RegistrationForm-input'
                         type="text"
                         name="preferences"
                         id="preferences"
@@ -127,7 +127,7 @@ const RegistrationForm = ({signup, lunches}) => {
                     <br></br>
                     <label htmlFor="aversions">Food Aversions: </label>
                     <input 
-                        className='ProfileForm-aversionsInput'
+                        className='RegistrationForm-input'
                         type="text"
                         name="aversions"
                         id="aversions"
